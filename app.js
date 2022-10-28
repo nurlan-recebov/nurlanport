@@ -7,11 +7,11 @@ document.addEventListener("mousemove", (e) => {
     cursor.style.left = x + "px"
     cursor.style.display = 'block'
 
-    function mouseStoped() {
-        cursor.style.display = 'none'
-    }
-    clearTimeout(timeout)
-    timeout = setTimeout(mouseStoped, 1000)
+    // function mouseStoped() {
+    //     cursor.style.display = 'none'
+    // }
+    // clearTimeout(timeout)
+    // timeout = setTimeout(mouseStoped, 1000)
 })
 document.addEventListener("mouseout", () => {
     cursor.style.display = 'none'
