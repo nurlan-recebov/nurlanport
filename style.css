@@ -1,6 +1,7 @@
     body {
         margin: 0 auto;
         height: 100vh;
+        width: 100%;
     }
     
     .navbar-item {
@@ -188,21 +189,21 @@
     #About {
         height: 100vh;
         width: 100%;
+        margin-top: 60px;
     }
     
     .text-list {
         width: 100%;
-        float: left;
         clear: both;
         overflow: hidden;
         border-radius: 10px;
         border: 2px solid #625a7d;
         margin-top: 32px;
         margin-bottom: 40px;
-        -webkit-border-radius: ;
-        -moz-border-radius: ;
-        -ms-border-radius: ;
-        -o-border-radius: ;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
     }
     
     li {
@@ -215,4 +216,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        #Home {
+            height: 100vh;
+        }
     }
