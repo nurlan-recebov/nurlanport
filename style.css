@@ -171,7 +171,7 @@
     
     #About img {
         width: 300px;
-        height: 420px;
+        height: 300px;
         object-fit: cover;
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -204,4 +204,11 @@
     li {
         list-style-type: none;
         color: #625a7d;
+    }
+    
+    .about-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
