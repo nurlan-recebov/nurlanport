@@ -46,7 +46,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: nowrap;
     }
     
     a {
@@ -211,6 +210,5 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
-            flex-wrap: nowrap;
         }
     }
