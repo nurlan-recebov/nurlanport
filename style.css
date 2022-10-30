@@ -233,9 +233,6 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
-        }
-        #Home {
-            width: 100%;
-            height: 900px;
+            align-items: center;
         }
     }
