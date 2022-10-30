@@ -203,6 +203,10 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
     }
     
     li {
@@ -251,6 +255,10 @@
         position: relative;
         overflow: hidden;
         background-position: center;
+        -webkit-border-radius: ;
+        -moz-border-radius: ;
+        -ms-border-radius: ;
+        -o-border-radius: ;
     }
     
     .port-item:nth-child(1) {
@@ -288,12 +296,12 @@
         -ms-transition: all .3s ease;
         -o-transition: all .3s ease;
         transition: all .3s ease;
-        width: 250px;
+        min-width: 250px;
         height: 100px;
-        -webkit-border-radius: 12px;
-        -moz-border-radius: 12px;
-        -ms-border-radius: 12px;
-        -o-border-radius: 12px;
+        -webkit-border-radius: ;
+        -moz-border-radius: ;
+        -ms-border-radius: ;
+        -o-border-radius: ;
         bottom: -100px;
         display: flex;
         justify-content: center;
@@ -302,7 +310,7 @@
     }
     
     .port-item:hover .details {
-        bottom: 10px;
+        bottom: 30px;
     }
     
     a {
