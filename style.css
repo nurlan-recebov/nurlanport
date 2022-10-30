@@ -183,6 +183,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        color: aliceblue;
     }
     
     j #About {
@@ -191,6 +192,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        color: aliceblue;
     }
     
     .text-list {
