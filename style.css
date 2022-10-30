@@ -46,6 +46,7 @@
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     
     a {
@@ -206,6 +207,6 @@
     
     @media only screen and (max-width: 600px) {
         #Home {
-            height: 1100px;
+            height: 100vh;
         }
     }
