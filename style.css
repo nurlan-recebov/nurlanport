@@ -46,6 +46,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 50px;
     }
     
     a {
@@ -148,10 +149,10 @@
             -moz-transition: 3s ease;
             -ms-transition: 3s ease;
             -o-transition: 3s ease;
-            -webkit-transform: ;
-            -moz-transform: ;
-            -ms-transform: ;
-            -o-transform: ;
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
         }
     }
     
