@@ -193,7 +193,6 @@
     #About {
         height: 600px;
         width: 100%;
-        margin-top: 100px;
     }
     
     .text-list {
@@ -230,6 +229,5 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
-            align-items: center;
         }
     }
