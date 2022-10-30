@@ -205,7 +205,7 @@
     }
     
     @media only screen and (max-width: 600px) {
-        #Home {
-            margin-bottom: 130px;
+        #About {
+            margin-top: 200px;
         }
     }
