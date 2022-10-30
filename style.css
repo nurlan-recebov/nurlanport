@@ -36,15 +36,12 @@
         height: 250px;
         object-fit: cover;
         border-radius: 50%;
-        -webkit-border-radius: ;
-        -moz-border-radius: ;
-        -ms-border-radius: ;
-        -o-border-radius: ;
     }
     
     .items {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     
     a {
@@ -61,10 +58,10 @@
         justify-content: center;
         border-radius: 30px;
         cursor: pointer;
-        -webkit-border-radius: ;
-        -moz-border-radius: ;
-        -ms-border-radius: ;
-        -o-border-radius: ;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
     }
     
     .cursor {
@@ -88,10 +85,11 @@
         -moz-transition: 0.1s ease;
         -ms-transition: 0.1s ease;
         -o-transition: 0.1s ease;
-        -webkit-border-radius: ;
-        -moz-border-radius: ;
-        -ms-border-radius: ;
-        -o-border-radius: ;
+        display: none;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
     }
     
     @keyframes colors {
@@ -171,10 +169,10 @@
         box-shadow: 0 0 20px #2696E8, 0 0 60px #2696E8, 0 0 100px #2696E8;
         animation: colors 5s infinite;
         -webkit-animation: colors 5s infinite;
-        -webkit-border-radius: ;
-        -moz-border-radius: ;
-        -ms-border-radius: ;
-        -o-border-radius: ;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
     }
     
     #About img {
@@ -182,10 +180,10 @@
         height: 300px;
         object-fit: cover;
         border-radius: 10px;
-        -webkit-border-radius: ;
-        -moz-border-radius: ;
-        -ms-border-radius: ;
-        -o-border-radius: ;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
     }
     
     #Home {
