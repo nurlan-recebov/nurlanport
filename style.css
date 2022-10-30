@@ -45,6 +45,7 @@
     .items {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     
     a {
@@ -143,6 +144,14 @@
         100% {
             transform: rotate(360deg);
             transition: 3s ease;
+            -webkit-transition: 3s ease;
+            -moz-transition: 3s ease;
+            -ms-transition: 3s ease;
+            -o-transition: 3s ease;
+            -webkit-transform: ;
+            -moz-transform: ;
+            -ms-transform: ;
+            -o-transform: ;
         }
     }
     
@@ -154,6 +163,11 @@
         pointer-events: none;
         box-shadow: 0 0 20px #2696E8, 0 0 60px #2696E8, 0 0 100px #2696E8;
         animation: colors 5s infinite;
+        -webkit-animation: colors 5s infinite;
+        -webkit-border-radius: ;
+        -moz-border-radius: ;
+        -ms-border-radius: ;
+        -o-border-radius: ;
     }
     
     #About img {
@@ -161,6 +175,10 @@
         height: 300px;
         object-fit: cover;
         border-radius: 10px;
+        -webkit-border-radius: ;
+        -moz-border-radius: ;
+        -ms-border-radius: ;
+        -o-border-radius: ;
     }
     
     #Home {
@@ -181,10 +199,10 @@
         border: 2px solid #625a7d;
         margin-top: 32px;
         margin-bottom: 32px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
+        -webkit-border-radius: ;
+        -moz-border-radius: ;
+        -ms-border-radius: ;
+        -o-border-radius: ;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -208,5 +226,6 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
+            align-items: center;
         }
     }
