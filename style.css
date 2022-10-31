@@ -360,12 +360,12 @@
     .input_list div {
         flex-wrap: wrap;
         display: flex;
-        gap: 20px;
+        gap: 10px;
         width: 100%;
     }
     
     .contact_form {
-        width: 420px;
+        width: 410px;
         display: flex;
         flex-direction: column;
         align-items: center;
