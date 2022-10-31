@@ -362,7 +362,7 @@
     .input_list div {
         display: grid;
         grid-template-columns: 2fr 2fr;
-        gap: 20px;
+        gap: 10px;
     }
     
     .contact_form {
