@@ -115,13 +115,8 @@
     
     .item-img img {
         animation: mymove 5s infinite;
-        transition: 3s ease;
         object-fit: cover;
         -webkit-animation: mymove 5s infinite;
-        -webkit-transition: 3s ease;
-        -moz-transition: 3s ease;
-        -ms-transition: 3s ease;
-        -o-transition: 3s ease;
     }
     
     @keyframes mymove {
@@ -262,15 +257,15 @@
     }
     
     .port-item:nth-child(1) {
-        background-image: url(img/p1.jpg);
+        background-image: url(img/Screenshot\ \(12\).png);
     }
     
     .port-item:nth-child(2) {
-        background-image: url(img/p2.jpg);
+        background-image: url(img/p6.jpg);
     }
     
     .port-item:nth-child(3) {
-        background-image: url(img/p3.jpg);
+        background-image: url(img/p5.jpg);
     }
     
     .port-item:nth-child(4) {
@@ -278,11 +273,11 @@
     }
     
     .port-item:nth-child(5) {
-        background-image: url(img/p5.jpg);
+        background-image: url(img/p1.jpg);
     }
     
     .port-item:nth-child(6) {
-        background-image: url(img/p6.jpg);
+        background-image: url(img/p2.jpg);
     }
     
     .details {
@@ -313,7 +308,7 @@
         bottom: 30px;
     }
     
-    a {
+    .port-item {
         text-decoration: none;
-        cursor: pointer;
+        list-style-type: none;
     }
