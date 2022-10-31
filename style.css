@@ -347,10 +347,10 @@
         border-radius: 8px;
         color: white;
         font-size: 18px;
-        -webkit-border-radius: ;
-        -moz-border-radius: ;
-        -ms-border-radius: ;
-        -o-border-radius: ;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
     }
     
     .input_list {
@@ -364,6 +364,7 @@
         flex-wrap: wrap;
         gap: 10px;
         justify-content: center;
+        width: 100%;
     }
     
     .contact_form {
@@ -380,10 +381,10 @@
         border: 2px solid #625a7d;
         border-radius: 10px;
         color: white;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
+        -webkit-border-radius: ;
+        -moz-border-radius: ;
+        -ms-border-radius: ;
+        -o-border-radius: ;
         padding: 16px 30px 30px 30px !important;
     }
     
@@ -401,10 +402,10 @@
         justify-content: center;
         border-radius: 30px;
         cursor: pointer;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        -ms-border-radius: 30px;
-        -o-border-radius: 30px;
+        -webkit-border-radius: ;
+        -moz-border-radius: ;
+        -ms-border-radius: ;
+        -o-border-radius: ;
     }
     
     .foliox_tm_button input {
@@ -417,4 +418,10 @@
     
     #Contact a {
         text-decoration: none;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .contact_form {
+            width: 100%;
+        }
     }
