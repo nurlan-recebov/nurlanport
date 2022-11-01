@@ -361,6 +361,8 @@
         -moz-border-radius: 8px;
         -ms-border-radius: 8px;
         -o-border-radius: 8px;
+        margin-top: 10px;
+        margin-left: 5px;
     }
     
     .input_list li {
@@ -438,5 +440,8 @@
             justify-content: center;
             width: 100%;
             margin-bottom: 10px;
+        }
+        .input_list input {
+            margin-left: 0px;
         }
     }
